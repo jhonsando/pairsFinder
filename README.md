@@ -1,4 +1,4 @@
-Install node if you did not have: https://nodejs.org/en/download
+Install node if you did not have it: https://nodejs.org/en/download
 
 ## steps to initialize the app
 1. npm install
