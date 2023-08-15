@@ -8,7 +8,7 @@ const PairsFinder = ()=>{
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = React.useCallback((data)=>{
         const pairs = calculatePairs(data.pairFinderInput, data.expectedPairResult)
-        const resultMessage = `Pairs: ${resultMessage}`       
+        const resultMessage = `Pairs: ${pairs}`       
         setResultData(resultMessage)
     },[])
     const errorMessage = errors.pairFinderInput?.message || errors.expectedPairResult?.message; 
